@@ -173,7 +173,9 @@ function CheckoutForm({ provider, service, user, date, timeSlot, onBookingDone, 
 }
 
 export default function BookingPage({ provider, service, user, onBack, onBookingDone }) {
+  // eslint-disable-next-line no-unused-vars
   const [date, setDate] = useState('');
+  // eslint-disable-next-line no-unused-vars
   const [timeSlot, setTimeSlot] = useState('');
 
   return (
